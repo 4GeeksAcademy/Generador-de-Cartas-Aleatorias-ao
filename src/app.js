@@ -27,4 +27,10 @@ window.onload = function() {
   document.querySelector(".card-number").innerHTML = randomCardValue;
   document.querySelector(".card-up-side").innerHTML = randomCardType;
   document.querySelector(".card-symbol").innerHTML = randomCardType;
+
+  if (randomCardType == "♦" || randomCardType == "♥") {
+    console.log(document.querySelector(".card-symbol"));
+    document.querySelector(".card-symbol").style.color = "red";
+    document.querySelector(".card-up-side").style.color = "red";
+  }
 };
