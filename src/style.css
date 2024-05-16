@@ -1,1 +1,35 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+    background-color: green; /* Color de fondo del cuerpo de la página */
+    height: 100%; /* Altura del cuerpo de la página */
+    margin: 0; /* Elimina los márgenes predeterminados */
+    display: flex; /* Utiliza el modelo de caja flexible */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 100vh;
+  }
+  
+  .card-body {
+    background-color: white; /* Color de fondo de la tarjeta */
+    border-radius: 15px; /* Radio de borde para esquinas redondeadas */
+    width: 250px; /* Ancho de la tarjeta */
+    height: 300px; /* Altura de la tarjeta */
+    border: 1px solid #000; /* Borde de 1px sólido de color negro */
+  }
+  
+  .card-number {
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .card-up-side {
+    height: 100px;
+    font-size: 50px;
+  }
+  
+  .card-symbol {
+    font-size: 50px;
+    display: flex;
+    justify-content: right;
+  }
+  
